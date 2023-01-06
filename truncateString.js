@@ -12,4 +12,4 @@ function truncateString(str, num) {
     console.log(newStr);
 }
 
-truncateString("Hello world.", 4);
+truncateString("Hi", 4);
