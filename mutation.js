@@ -9,7 +9,6 @@ function mutation(arr) {
     }
 
     return true;
-    //console.log("True");
 }
 
 mutation("Hello", "He");
