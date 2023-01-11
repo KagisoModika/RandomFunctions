@@ -1,13 +1,7 @@
 function slasher(arr, numIndex) {
-    var final = [];
+    arr.splice(0, numIndex - 1);
 
-    if (arr.length > numIndex) {
-        final = arr.splice(numIndex, arr.length);
-    } else {
-        final = arr;
-    }
-
-    return arr;
+    console.log(arr);
 }
 
-slasher(["1", "2", "3"], 2);
+slasher(["1", "2", "3", "4"], 2);
