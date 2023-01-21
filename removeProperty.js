@@ -7,5 +7,3 @@ function removeProperty(obj, prop) {
       return false;
     }
 }
-
-removeProperty(obj, obj.prop2something);
